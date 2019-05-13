@@ -2574,27 +2574,10 @@ nav a:hover {
 
 /*About section CSS*/
 
-#row1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around
-}
-
-#col1 {
-  flex-direction: column;
-  width: 50%;
-  margin: 10px;
-}
-
-#col2 {
-  flex-direction: column;
-  width: 50%;
-  margin: 10px;
-}
-
 #personal {
   max-width: 100%;
   height: auto;
+  border-radius: 50%;
 }
       
 .contact {
@@ -2631,3 +2614,13 @@ nav a:hover {
 #zitat{
   padding-top: 20px;
 }
+
+.about-area{
+  text-align: justify;
+}
+
+.about-title{
+  text-align: center;
+  padding-bottom: 5px;
+}
+

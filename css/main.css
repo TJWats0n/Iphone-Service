@@ -2071,7 +2071,7 @@ nav a:hover {
 
 @media (max-width: 767px) {
   .banner-content h1 {
-    font-size: 12vw;
+    font-size: 10vw;
   }
 }
 
@@ -2086,7 +2086,7 @@ nav a:hover {
 }
 
 .single-feature {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 @media (max-width: 767px) {
@@ -2121,12 +2121,13 @@ nav a:hover {
   font-size: 20px;
 }
 
-.about-area {
+.grey-area {
   background: #f9f9ff;
-  padding: 50px 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.about-area .about-thumb {
+.grey-area .about-thumb {
   border-radius: 3px;
   overflow: hidden;
   text-align: center;
@@ -2277,32 +2278,33 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
-.blog-area {
-  padding: 70px 0 100px 0;
+.white-area {
+  padding-top: 20px;
+  padding-bottom: 20px;
   background: #fff;
 }
 
-.blog-area .single-blog {
+.white-area .single-blog {
   margin-top: 30px;
 }
 
-.blog-area .single-blog .thumb {
+.white-area .single-blog .thumb {
   background-repeat: no-repeat !important;
   background-position: center center !important;
   background-size: cover !important;
   height: 215px;
 }
 
-.blog-area .single-blog .desc {
+.white-area .single-blog .desc {
   padding: 40px 20px 0 20px;
 }
 
-.blog-area .single-blog .desc h4 {
+.white-area .single-blog .desc h4 {
   font-size: 20px;
   margin-bottom: 15px;
 }
 
-.blog-area .single-blog .desc p {
+.white-area .single-blog .desc p {
   margin-bottom: 0;
 }
 
@@ -2420,12 +2422,10 @@ nav a:hover {
 .footer-area {
   background: #333333;
   padding: 100px 0;
-  margin-bottom: 6rem;
 }
 
 @media (max-width: 767px) {
   .footer-area {
-    margin-bottom: 3rem;
   }
 }
 
@@ -2590,13 +2590,12 @@ nav a:hover {
 }
 
 .icon-wrapper{
-  max-width: 20%;
+  text-align: center;
+  width: 100%;
 }
 
 .icon{
-    max-width: 100%;
-    padding-top: 30%;
-    padding-right: 10px;
+    max-width: 15%;
 }
 
 .banner{
@@ -2615,15 +2614,19 @@ nav a:hover {
   padding-top: 20px;
 }
 
-.about-area{
+.justified_text{
   text-align: justify;
 }
 
-.about-title{
+.center_title{
   text-align: center;
   padding-bottom: 5px;
 }
 
 .personal_pic_wrapper{
   text-align: center;
+}
+
+.logo-wrapper{
+  width: 28%;
 }

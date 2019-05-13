@@ -2575,7 +2575,7 @@ nav a:hover {
 /*About section CSS*/
 
 #personal {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
   border-radius: 50%;
 }
@@ -2624,3 +2624,6 @@ nav a:hover {
   padding-bottom: 5px;
 }
 
+.personal_pic_wrapper{
+  text-align: center;
+}
